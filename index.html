@@ -971,7 +971,7 @@ function folderSvg(isGray){
   if(btnMinus1){
     btnMinus1.addEventListener("click", ()=>{
       if(!performanceMode) return;
-      if(digitNumber>0) digitNumber = Math.max(0, digitNumber-1);
+      if(digitNumber>0) digitNumber = Math.max(0, digitNumber-10);
       updateDigitCounter();
     });
   }
